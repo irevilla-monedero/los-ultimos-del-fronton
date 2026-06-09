@@ -143,7 +143,7 @@ function Hero() {
             </div>
 
             <p className="mt-6 text-sm font-bold text-zinc-400">
-              Atrapa las pelotas del frontón.
+              Atrapa las pelotas del frontón
             </p>
           </div>
 
