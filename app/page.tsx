@@ -113,7 +113,7 @@ function Hero() {
             </div>
 
             <p className="mb-4 text-sm font-black uppercase tracking-[0.35em] text-[#9fd08f]">
-              Paracuellos de la Vega · Serranía de Cuenca
+              Paracuellos de la Vega
             </p>
 
             <h1 className="max-w-5xl text-6xl font-black leading-[0.88] tracking-tight md:text-8xl xl:text-9xl">
@@ -143,7 +143,7 @@ function Hero() {
             </div>
 
             <p className="mt-6 text-sm font-bold text-zinc-400">
-              Prueba a tocar las pelotas del frontón.
+              Atrapa las pelotas del frontón.
             </p>
           </div>
 
