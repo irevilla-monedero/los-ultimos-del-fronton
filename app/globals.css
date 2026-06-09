@@ -323,4 +323,20 @@ body {
   }
 }
 
+.ticker {
+  display: inline-block;
+  min-width: 100%;
+  animation: ticker-move 24s linear infinite;
+}
+
+@keyframes ticker-move {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 
