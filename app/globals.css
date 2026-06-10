@@ -415,4 +415,44 @@ body {
   }
 }
 
+.contador-ball {
+  background:
+    radial-gradient(circle at 35% 30%, #ffffff 0 10%, transparent 11%),
+    radial-gradient(circle at center, #faf3d1 0%, #e6c84c 52%, #b8860b 100%);
+  box-shadow:
+    0 0 22px rgba(242, 161, 74, 0.65),
+    0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.fronton-mini-numbers {
+  position: absolute;
+  left: 6%;
+  top: 34px;
+  z-index: 1;
+  display: grid;
+  width: 88%;
+  grid-template-columns: repeat(7, 1fr);
+  pointer-events: none;
+}
+
+.fronton-mini-numbers span {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: rgba(244, 239, 218, 0.38);
+  font-size: 28px;
+  font-weight: 950;
+  line-height: 1;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+.fronton-mini-numbers span::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  width: 2px;
+  height: 130px;
+  background: rgba(244, 239, 218, 0.25);
+}
+
 
